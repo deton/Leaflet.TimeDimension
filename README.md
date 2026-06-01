@@ -4,23 +4,47 @@ Add time dimension capabilities on a [Leaflet](http://leafletjs.com/) map.
 
 ![screenshot](https://raw.githubusercontent.com/socib/Leaflet.TimeDimension/master/examples/img/screenshot/screenshot-leaflet-timedimension.png "Screenshot of Leaflet.TimeDimension")
 
-- [Examples and basic usage](#examples-and-basic-usage)
-- [API](#api)
+- [Leaflet TimeDimension](#leaflet-timedimension)
+  - [Examples and basic usage](#examples-and-basic-usage)
+  - [API](#api)
     - [L.Map](#lmap)
     - [L.TimeDimension](#ltimedimension)
+      - [Usage example](#usage-example)
+      - [Creation](#creation)
+      - [Options](#options)
+      - [Events](#events)
+      - [Methods](#methods)
     - [L.TimeDimension.Layer](#ltimedimensionlayer)
+      - [Options](#options-1)
+      - [Events](#events-1)
     - [L.TimeDimension.Layer.WMS](#ltimedimensionlayerwms)
+      - [Usage example](#usage-example-1)
+      - [Creation](#creation-1)
+      - [Options](#options-2)
     - [L.TimeDimension.Layer.GeoJSON](#ltimedimensionlayergeojson)
+      - [Usage example](#usage-example-2)
+      - [Creation](#creation-2)
+      - [Options](#options-3)
     - [L.Control.TimeDimension](#lcontroltimedimension)
+      - [Usage example](#usage-example-3)
+      - [Creation](#creation-3)
+      - [Options](#options-4)
     - [L.TimeDimension.Player](#ltimedimensionplayer)
+      - [Usage example](#usage-example-4)
+      - [Creation](#creation-4)
+      - [Options](#options-5)
+      - [Events](#events-2)
+      - [Methods](#methods-1)
     - [TimeDimension update modes](#timedimension-update-modes)
-- [Requisites](#requisites)
-- [Talks](#talks)
-- [Bugs, issues and contributions](#bugs-issues-and-contributions)
+  - [Requisites](#requisites)
+  - [Talks](#talks)
+  - [Bugs, issues and contributions](#bugs-issues-and-contributions)
 
 ## Examples and basic usage
 
 Checkout the [Leaflet TimeDimension Demos](https://apps.socib.es/Leaflet.TimeDimension/examples/).
+
+**IMPORTANT NOTICE**: SOCIB no longer supports an internal proxy for running examples. Please implement your own proxy or ensure that the dependent service supports CORS for your targeted origin.
 
 Basic usage:
 
