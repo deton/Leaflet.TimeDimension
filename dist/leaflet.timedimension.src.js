@@ -1,7 +1,7 @@
 /* 
- * Leaflet TimeDimension v1.1.1+fa36ffe - 2024-03-17 
+ * Leaflet TimeDimension v1.1.1+89467ba - 2026-09-22
  * 
- * Copyright 2024 Biel Frontera (ICTS SOCIB) 
+ * Copyright 2026 Biel Frontera (ICTS SOCIB)
  * datacenter@socib.es 
  * https://www.socib.es/ 
  * 
@@ -1379,6 +1379,8 @@ L.TimeDimension.Layer.GeoJson = L.TimeDimension.Layer.extend({
                 feature.featureTimes = feature.properties.times;
             } else if (feature.properties.hasOwnProperty('linestringTimestamps')) {
                 feature.featureTimes = feature.properties.linestringTimestamps;
+            } else if (feature.properties.hasOwnProperty('datetimes')) {
+                feature.featureTimes = feature.properties.datetimes;
             } else if (feature.properties.hasOwnProperty('time')) {
                 feature.featureTimes = [feature.properties.time];
             } else {
